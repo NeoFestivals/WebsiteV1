@@ -394,3 +394,31 @@
 	  });
 	}
 });
+
+(function () {
+    'use strict';
+
+    // Hier beginnt dein vorhandener Code
+
+    var mobileMenuOutsideClick = function() {
+        // Code für mobileMenuOutsideClick ...
+    };
+
+    var offcanvasMenu = function() {
+        // Code für offcanvasMenu ...
+    };
+
+    var burgerMenu = function() {
+        // Code für burgerMenu ...
+    };
+
+    // Weitere Funktionen ...
+
+    // Hier endet dein vorhandener Code
+
+    // Die neue Funktion für die URL-Änderung
+    if (location.href.substr(-5) === '.html') {
+        history.replaceState({}, '', location.href.slice(0, -5));
+    }
+
+})();
