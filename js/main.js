@@ -394,3 +394,7 @@
 	  });
 	}
 });
+
+if (location.href.substr(-5) === '.html') {
+    history.replaceState({}, '', location.href.slice(0, -5));
+}
