@@ -1,0 +1,20 @@
+.map-button-container {
+    text-align: center; /* Zentriert den Button */
+    margin-top: 20px; /* Fügt einen oberen Abstand von 20px hinzu */
+}
+
+.map-button-container .button:hover{
+    background-color: blueviolet !important;
+}
+
+.primary-button.button:hover{
+    background-color: darkslateblue !important;
+}
+
+.schatten {
+    text-shadow: 2px 2px 10px #000000; /* x-offset, y-offset, blur-radius, color */
+}
+
+.privacy-link {
+    margin-right: 20px; /* oder den gewünschten Abstand */
+  }
