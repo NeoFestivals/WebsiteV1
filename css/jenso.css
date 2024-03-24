@@ -18,3 +18,15 @@
 .privacy-link {
     margin-right: 20px; /* oder den gewünschten Abstand */
   }
+
+.websitelogo {
+    width: auto !important; 
+    height: 60px !important;
+}
+
+@media (max-width: 399px) {
+    .websitelogo {
+      width: auto !important; /* kleinere Größe für das Logo */
+      height: 40px !important; /* behält das Seitenverhältnis bei */
+    }
+  }
